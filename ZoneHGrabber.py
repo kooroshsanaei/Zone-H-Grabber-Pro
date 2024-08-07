@@ -114,9 +114,4 @@ print(f"Numbers Of Results {number_of_lines_output}")
 
 sleep(3)
 
-#os.system("cls")
-#print("ADDING URLS TO DATABASE")
-
-#ADDING URLS.txt TO DATABASE
-path_to_url_files = r"C:\Users\machinegun\Desktop\powershell\zone-h Grabber\MyZoneHGrabber\urls.txt"
-#push_to_db()
+#Soon We Will Have Updates On The Zone-H Grabber pro
