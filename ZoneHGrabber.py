@@ -27,7 +27,7 @@ from tld import get_tld
 from time import sleep
 from urllib.parse import urlparse
 import argparse
-from remove_duplicates import DuplicatorRemover
+#from remove_duplicates import DuplicatorRemover
 #from database import *
 
 parser = argparse.ArgumentParser(description="Zone-H Grabber")
@@ -45,9 +45,9 @@ path = os.getcwd()
 input_file = os.path.join(path, "urls.txt")
 output_file = os.path.join(path, "Results", "output.txt")
 
-def remove_dup():
-    remover = DuplicatorRemover(input_file, output_file)
-    remover.remove_duplicates()
+#def remove_dup():
+    #remover = DuplicatorRemover(input_file, output_file)
+    #remover.remove_duplicates()
 
 def number_of_lines(file_path):
     with open(file_path, "r") as File:
@@ -108,7 +108,7 @@ else:
     print(f"Defacer #> {name}")
     check_notifier(name)
 
-remove_dup()
+#remove_dup()
 number_of_lines_output = number_of_lines(output_file)
 print(f"Numbers Of Results {number_of_lines_output}")
 
